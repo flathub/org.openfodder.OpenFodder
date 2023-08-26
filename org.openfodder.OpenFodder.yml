@@ -21,8 +21,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/OpenFodder/openfodder.git
-        tag: 1.7.0
-        commit: 2eccdb25e46ab2b30f9cec0fe4d900a6fe38375b
+        tag: 1.8.0
+        commit: 642d4cc70d6390280f5af93880461aa961538c2a
       - type: file
         path: org.openfodder.OpenFodder.desktop
       - type: file
