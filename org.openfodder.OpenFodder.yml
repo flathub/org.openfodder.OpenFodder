@@ -21,8 +21,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/OpenFodder/openfodder.git
-        tag: 1.8.0
-        commit: 642d4cc70d6390280f5af93880461aa961538c2a
+        tag: 1.9.0
+        commit: a5eac175f940c73ee70beb31a9e5d1277204008e
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
