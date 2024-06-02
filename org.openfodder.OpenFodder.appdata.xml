@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>org.openfodder.OpenFodder.desktop</id>
+  <id>org.openfodder.OpenFodder</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
   <name>OpenFodder</name>
-  <summary>An open-source port of the DOS strategy game Cannon Fodder.</summary>
+  <developer_name>Robert Crossfield</developer_name>
+  <summary>Source port of Cannon Fodder</summary>
   <description>
     <p>Open Fodder is an open source version of the Cannon Fodder engine, for modern operating systems.</p>
     <p>The game is military-themed and based on shooting action but with a strategy game-style control system. The player directs troops through numerous missions, battling enemy infantry, vehicles and installations.</p>
@@ -23,4 +24,5 @@
       <image>https://user-images.githubusercontent.com/1327406/49718991-f1bd6e00-fcaf-11e8-88e3-68136828c2d1.png</image>
     </screenshot>
   </screenshots>
+  <launchable type="desktop-id">org.openfodder.OpenFodder.desktop</launchable>
 </component>
