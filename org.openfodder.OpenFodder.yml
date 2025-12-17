@@ -1,12 +1,12 @@
 app-id: org.openfodder.OpenFodder
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.llvm16
+  - org.freedesktop.Sdk.Extension.llvm21
 build-options:
-  append-path: /usr/lib/sdk/llvm16/bin
-  prepend-ld-library-path: /usr/lib/sdk/llvm16/lib
+  append-path: /usr/lib/sdk/llvm21/bin
+  prepend-ld-library-path: /usr/lib/sdk/llvm21/lib
 command: openfodder
 finish-args:
   - --socket=x11
@@ -42,7 +42,6 @@ modules:
       - install -Dm644 org.openfodder.OpenFodder.appdata.xml -t ${FLATPAK_DEST}/share/metainfo/
       - install -Dm644 org.openfodder.OpenFodder.desktop -t ${FLATPAK_DEST}/share/applications/
       - install -Dm644 org.openfodder.OpenFodder.png -t ${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/
-
   - name: data
     buildsystem: simple
     build-commands:
